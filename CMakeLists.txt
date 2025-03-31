@@ -38,7 +38,6 @@ find_package(PkgConfig REQUIRED)
 include(SetSystemLibIfExists)
 SetSystemLibIfExists()
 
-add_subdirectory(cm_vendored_library)
 add_subdirectory(cm_library_cffi_headers)
 add_subdirectory(cm_library_c_binding)
 add_subdirectory(cm_python_module)
